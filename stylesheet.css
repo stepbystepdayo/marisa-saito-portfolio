@@ -218,7 +218,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 100;
   word-spacing: 5px;
-  animation: slideIn 0.6s ease-in;
+  animation: slideIn 0s ease-in;
   letter-spacing: 3px;
 }
 
@@ -247,6 +247,24 @@ h2 {
   margin-right: 10%;
   margin-top: 5%;
 }
+
+/* Another link basic */
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+p {
+  border: 2px solid black;
+  margin: 5% 20%;
+}
+
+/* ABOUT */
 
 @media (max-width: 1920px) {
   h1 {
