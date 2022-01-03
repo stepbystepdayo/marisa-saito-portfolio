@@ -190,16 +190,16 @@ nav a {
   margin-bottom: 1.5%;
   animation: lineIn 1s ease-in;
 }
-/* @keyframes lineIn {
+@keyframes lineIn {
   0% {
     width: 0%;
   }
   100% {
     width: 100%;
   }
-} */
+}
 
-/* @keyframes slideIn {
+@keyframes slideIn {
   0% {
     opacity: 0;
     transform: translateX(-500px);
@@ -208,7 +208,7 @@ nav a {
     opacity: 1;
     transform: skew(0deg);
   }
-} */
+}
 
 .marisa {
   font-weight: 550;
