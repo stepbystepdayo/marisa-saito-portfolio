@@ -199,17 +199,6 @@ nav a {
   }
 }
 
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-500px);
-  }
-  100% {
-    opacity: 1;
-    transform: skew(0deg);
-  }
-}
-
 .marisa {
   font-weight: 550;
 }
@@ -218,8 +207,19 @@ h1 {
   text-transform: uppercase;
   font-weight: 100;
   word-spacing: 5px;
-  animation: slideIn 0s ease-in;
   letter-spacing: 3px;
+  animation: slideIn 0.7s ease-in;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: skew(0deg);
+  }
 }
 
 h2 {
@@ -246,6 +246,7 @@ h2 {
   height: 28vw;
   margin-right: 10%;
   margin-top: 5%;
+  /* animation: fadeIn 2s ease-in; */
 }
 
 /* Another link basic */
@@ -254,17 +255,36 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3%;
 }
 h3 {
   font-size: 50px;
   text-transform: uppercase;
 }
-p {
-  border: 2px solid black;
-  margin: 5% 20%;
-}
 
 /* ABOUT */
+.about {
+  border: 2px solid black;
+  margin: 5% 20%;
+  padding: 2%;
+  font-size: 20px;
+}
+
+.underline {
+  background-color: #b1b1ac;
+  width: 30%;
+  height: 0.3vw;
+  margin-bottom: 1.5%;
+  animation: lineIn 1s ease-in;
+}
+@keyframes lineIn {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
 
 @media (max-width: 1920px) {
   h1 {
