@@ -218,7 +218,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 100;
   word-spacing: 5px;
-  animation: slideIn 0.7s ease-in;
+  animation: slideIn 0.6s ease-in;
   letter-spacing: 3px;
 }
 
