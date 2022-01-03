@@ -176,6 +176,7 @@ nav a {
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
+  color: #474747;
   margin-right: 0%;
   margin-left: 10%;
   width: 45%;
@@ -189,24 +190,16 @@ nav a {
   margin-bottom: 1.5%;
   animation: lineIn 1s ease-in;
 }
-/* @keyframes lineIn {
+@keyframes lineIn {
   0% {
     width: 0%;
   }
   100% {
     width: 100%;
   }
-} */
-
-h1 {
-  font-size: 45px;
-  text-transform: uppercase;
-  font-weight: 100;
-  word-spacing: 5px;
-  animation: slideIn 0.7s ease-in;
-  letter-spacing: 3px;
 }
-/* @keyframes slideIn {
+
+@keyframes slideIn {
   0% {
     opacity: 0;
     transform: translateX(-500px);
@@ -215,10 +208,18 @@ h1 {
     opacity: 1;
     transform: skew(0deg);
   }
-} */
+}
 
 .marisa {
   font-weight: 550;
+}
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 100;
+  word-spacing: 5px;
+  animation: slideIn 0.7s ease-in;
+  letter-spacing: 3px;
 }
 
 h2 {
@@ -245,4 +246,32 @@ h2 {
   height: 28vw;
   margin-right: 10%;
   margin-top: 5%;
+}
+
+@media (max-width: 1920px) {
+  h1 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1640px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1290px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1120px) {
+  h1 {
+    font-size: 30px;
+  }
 }
