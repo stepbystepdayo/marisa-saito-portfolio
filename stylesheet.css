@@ -273,7 +273,7 @@ h2 {
   margin-top: 2%;
 }
 .picture img {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: relative;
   z-index: 1;
   width: 45vw;
