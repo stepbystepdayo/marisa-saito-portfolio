@@ -188,7 +188,6 @@ li a:hover {
   background-color: #474747;
   border-radius: 10px;
 }
-
 .home {
   /* border: 2px solid black; */
   display: flex;
@@ -260,7 +259,6 @@ h2 {
 }
 .picture {
   /* border: 2px solid black; */
-  /* border: 2px solid black; */
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -268,19 +266,19 @@ h2 {
 .design {
   position: absolute;
   background-color: #dddfdb;
-  width: 48%;
-  height: 55vh;
+  width: 50vw;
+  height: 33vw;
   margin-top: 2%;
 }
 .picture img {
   /* border: 2px solid black; */
   position: relative;
   z-index: 1;
-  width: 45vw;
-  height: 52vh;
-  margin-right: 10%;
+  width: 80%;
+  height: 52%;
+  margin-right: 5%;
   margin-top: 5%;
-  /* animation: fadeIn 2s ease-in; */
+  aspect-ratio: 5/3;
 }
 
 /* Another link basic */
