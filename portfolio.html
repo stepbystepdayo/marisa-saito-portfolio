@@ -5,15 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="portfolio" href="portfolio.css">
     <link rel="index" href="index.html">
     <title>Portfolio</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="navLink">
+            <ul>
+                <li><a class="nav-link nav-link-ltr" href="index.html">about</a></li>
+                <li><a class="nav-link nav-link-ltr" href="portfolio.html">portfolio</a></li>
+                <li><a class="nav-link nav-link-ltr" href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="title">
     <h3>Portfolio</h3>
     <div class="underline"></div>
-    <!-- <embed src="https://res.cloudinary.com/dazhgpfrr/image/upload/v1641239937/Marisa%27s%20portfolio/Portfolio_Draft_swltry.pdf" width="700vw" height="500vh" type="application/pdf"> -->
     </div>
-    
+
+    <!-- main picture and link -->
+    <div class="main">
+        <div class="side">
+            <a href="https://www.google.com/" target ="_blank">resume</a>
+            <a href="" target ="_blank">sample work</a>
+            <a href="" target ="_blank">project portfolio</a>
+        </div>
+        <!-- This is picture gallary -->
+        <div class="gallary">
+            <div class="boxOne">
+            <img onclick="toggleLoby()" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641408824/Marisa%27s%20portfolio/Lobby_View_1_Colored_mossj0.jpg"
+                alt="lobby view"/>
+            </div>
+            <div class="boxTwo">
+            <img onclick="toggleStudio()" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411596/Marisa%27s%20portfolio/Studio_Colored_yzfq5w.jpg"
+                    alt="studio"/>
+            </div>
+            <div class="boxThree">
+            <img onclick="toggleKbc()" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411597/Marisa%27s%20portfolio/KBC_Colored_hna7d5.jpg"
+                    alt="KBC" />
+            </div>
+            <div class="boxFour">
+            <img onclick="toggleKinship()" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411604/Marisa%27s%20portfolio/Kinship_Colored_zrry5s.jpg"
+                    alt="Kinship" />
+            </div>
+        </div>
+
+        <!-- This is for pop up -->
+        <section class="pop" id="imgOne">
+            <div class="overlay">
+                <div class="close" id="close" onClick="toggleLoby()">&times;</div>
+                <div class="detail">
+                <img class="detailOne" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641408824/Marisa%27s%20portfolio/Lobby_View_1_Colored_mossj0.jpg"
+                alt="lobby view"/>
+                <div class="text">
+                <h2>Rendered Perspective of Lobby</h2>
+                <h3>AFFORDABLE HOUSING</h3>
+                <h2>Honolulu, HI</h2>
+                </div>
+                </div>
+            </div>
+        </section> 
+        <section class="pop" id="imgTwo">
+            <div class="overlay">
+                <div class="close" id="close" onClick="toggleStudio()">&times;</div>
+                <div class="detail">
+                    <img class="detailTwo" src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411596/Marisa%27s%20portfolio/Studio_Colored_yzfq5w.jpg"
+                    alt="studio">
+                    <div class="text">
+                        <h2>Rendered Perspective of Studio Unit</h2>
+                        <h3>AFFORDABLE HOUSING</h3>
+                        <h2>Honolulu, HI</h2>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="pop" id="imgThree">
+            <div class="overlay">
+                <div class="close" id="close" onClick="toggleKbc()">&times;</div>
+                <div class="detail">
+                    <img class="detailTwo"
+                        src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411597/Marisa%27s%20portfolio/KBC_Colored_hna7d5.jpg"
+                    alt="KBC">
+                    <div class="text">
+                        <h2>Sketch Styled Perspective of Bar</h2>
+                        <h3>BAR</h3>
+                        <h2>Honolulu, HI</h2>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="pop" id="imgFour">
+            <div class="overlay">
+                <div class="close" id="close" onClick="toggleKinship()">&times;</div>
+                <div class="detail">
+                    <img class="detailTwo"
+                        src="https://res.cloudinary.com/dazhgpfrr/image/upload/f_auto/v1641411604/Marisa%27s%20portfolio/Kinship_Colored_zrry5s.jpg"
+                    alt="Kinship">
+                    <div class="text">
+                        <h2>Rendered Perspective of Dining Room</h2>
+                        <h3>RESTAURANT</h3>
+                        <h2>Honolulu, HI</h2>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+
+
+    </div>
+
+
+<script src="app.js"></script>
 </body>
 </html>
