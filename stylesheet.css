@@ -319,7 +319,7 @@ h2 {
   /* border: 2px solid black; */
   position: relative;
   z-index: 1;
-  width: 400px;
+  width: 28vw;
   height: auto;
   margin-top: 1.5%;
   margin-left: 22%;
@@ -534,7 +534,6 @@ h3 {
 }
 .detail h3 {
   font-size: 10px;
-  margin: 0% 10%;
   font-weight: bold;
 }
 
@@ -591,14 +590,26 @@ h3 {
     font-size: 40px;
   }
 }
+@media (max-width: 1410px) {
+  /* ----- PORTFOLIO ----- */
+  .side {
+    font-size: 14px;
+  }
+}
 @media (max-width: 1290px) {
   h1 {
     font-size: 35px;
+  }
+  .side {
+    font-size: 12px;
   }
 }
 @media (max-width: 1120px) {
   h1 {
     font-size: 30px;
+  }
+  .side {
+    font-size: 10px;
   }
 }
 
