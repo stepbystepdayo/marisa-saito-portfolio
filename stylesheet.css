@@ -313,6 +313,7 @@ h2 {
   height: 20.5vw;
   margin-top: 0%;
   margin-left: 0%;
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13), 0 2px 10px 0 rgba(0, 0, 0, 0.13); */
 }
 .picture img {
   /* border: 2px solid black; */
@@ -323,6 +324,7 @@ h2 {
   height: auto;
   margin-top: 1.5%;
   margin-left: 22%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   /* object-fit: cover; */
   /* aspect-ratio: 5/3; */
 }
@@ -435,26 +437,35 @@ h3 {
   filter: grayscale(100%);
   width: 90%;
   height: 90%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
 }
 
 .boxTwo img {
   filter: grayscale(100%);
   width: 90%;
   height: 90%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
 }
 .boxThree img {
   filter: grayscale(100%);
   width: 90%;
   height: 155%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
 }
 .boxFour img {
   filter: grayscale(100%);
   width: 90%;
   height: 155%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
 }
 .gallary img:hover {
   filter: none;
   transform: translateY(-5px);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ---------------------- POP UP ----------------------- */
@@ -485,7 +496,7 @@ h3 {
   top: 20px;
   width: 30px;
   height: 30px;
-  color: #6c5146;
+  color: #474747;
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
@@ -499,7 +510,7 @@ h3 {
 
 .overlay {
   /* border: 2px solid black; */
-  color: #6c5146;
+  color: #474747;
 }
 
 .overlay .detail {
