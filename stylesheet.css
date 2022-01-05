@@ -485,7 +485,7 @@ h3 {
   top: 20px;
   width: 30px;
   height: 30px;
-  color: #6c5146;
+  color: #474747;
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
@@ -499,7 +499,7 @@ h3 {
 
 .overlay {
   /* border: 2px solid black; */
-  color: #6c5146;
+  color: #474747;
 }
 
 .overlay .detail {
