@@ -726,6 +726,9 @@ h3 {
     font-size: 19px;
   }
   /* ----- LANDING PAGE ABOUT ----- */
+  .home {
+    margin-top: 15%;
+  }
   .about {
     font-size: 11px;
   }
@@ -790,8 +793,9 @@ h3 {
 /* ---------------------------- THE MOBILE SCREEN ------------------------------- */
 
 @media (max-width: 500px) {
+  /* ------------------- NAVIGATION BAR ----------------- */
   .navLink {
-    /* display: none; */
+    display: none;
     width: 100%;
   }
 
@@ -799,6 +803,7 @@ h3 {
     width: 100%;
     flex-direction: column;
     margin: 0;
+    margin-bottom: 10%;
   }
 
   .navLink li {
@@ -811,10 +816,47 @@ h3 {
     display: flex;
   }
 
+  /* ------------------- LANDING PAGE---------------------- */
+
   .home {
-    margin-top: 40%;
+    margin-top: 30%;
+    margin-left: 5%;
     /* border: 2px solid black; */
     flex-direction: column;
     align-items: center;
+  }
+  .line {
+    width: 66%;
+    height: 0.2vh;
+    animation: lineMobile 1.5s ease-in;
+  }
+  @keyframes lineMobile {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 65%;
+    }
+  }
+  h2 {
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .about {
+    /* border: 2px solid black; */
+    padding-top: 2%;
+    font-size: 11px;
+    line-height: 130%;
+  }
+  /* ------------------------ ABOUT PICTURE --------------------------- */
+  .picture {
+    margin-top: 8%;
+  }
+  .design {
+    width: 50vw;
+    height: 37vw;
+  }
+  .picture img {
+    width: 48vw;
   }
 }
