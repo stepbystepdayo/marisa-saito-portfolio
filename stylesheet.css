@@ -199,26 +199,6 @@ nav {
   transform: scale(1);
 }
 
-/* ----------------- THIS IS FOR THE MOBILE SCREEN ---------------- */
-
-.burger {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.burger .bar {
-  height: 3px;
-  width: 100%;
-  background-color: #474747;
-  border-radius: 10px;
-}
-
 /* ------------------- LANDING TEXT ---------------------- */
 
 .home {
@@ -545,7 +525,7 @@ h3 {
 }
 
 .detailTwo {
-  margin-top: 7%;
+  margin-top: 10%;
   width: 60%;
 }
 
@@ -793,8 +773,12 @@ h3 {
 
 @media (max-width: 500px) {
   /* ------------------- NAVIGATION BAR ----------------- */
+  .burger {
+    display: flex;
+  }
+
   .navLink {
-    /* display: none; */
+    display: none;
     width: 100%;
   }
 
@@ -813,6 +797,26 @@ h3 {
 
   .navLink.active {
     display: flex;
+  }
+
+  /* ----------------- THIS IS NAV FOR THE MOBILE SCREEN ---------------- */
+
+  .burger {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .burger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #474747;
+    border-radius: 10px;
   }
 
   /* ------------------- LANDING PAGE---------------------- */
@@ -850,6 +854,7 @@ h3 {
   /* ------------------------ ABOUT PICTURE --------------------------- */
   .picture {
     margin-top: 8%;
+    margin-bottom: 8%;
   }
   .design {
     width: 50vw;
@@ -860,6 +865,7 @@ h3 {
   }
   /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
   .title h3 {
+    margin-top: 15%;
     font-size: 25px;
   }
   /* ----------------- PPORTFOLIO PAGE ----------------- */
@@ -871,6 +877,7 @@ h3 {
   .side {
     width: 50%;
     align-items: center;
+    margin-bottom: 5%;
   }
   .side a {
     margin-top: 10%;
@@ -878,7 +885,7 @@ h3 {
 
   .gallary {
     margin: 5% 0% 10% 0%;
-    width: 65%;
+    width: 90%;
   }
   .boxOne {
     width: 50%;
@@ -898,8 +905,36 @@ h3 {
     text-align: center;
     margin-top: 6%;
   }
+  .boxOne img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxTwo img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxThree img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxFour img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .detailOne {
+    /* border: 2px solid black; */
+    margin-top: 30%;
+    width: 90%;
+  }
+
+  .detailTwo {
+    margin-top: 30%;
+    width: 90%;
+  }
+
   /* ---------------------- CONTACT ----------------------- */
   .text h3 {
+    margin-top: 0%;
     font-size: 13px;
   }
   .text h4 {
