@@ -163,7 +163,6 @@ nav {
 .navLink li a {
   /* border: 2px solid black; */
   font-size: 18px;
-
   text-transform: uppercase;
   letter-spacing: 1.4px;
 }
@@ -199,6 +198,8 @@ nav {
   width: 100%;
   transform: scale(1);
 }
+
+/* ----------------- THIS IS FOR THE MOBILE SCREEN ---------------- */
 
 .burger {
   position: absolute;
@@ -329,7 +330,7 @@ h2 {
   /* aspect-ratio: 5/3; */
 }
 
-/* ------------------- link basic ----------------- */
+/* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
 
 .title {
   color: #474747;
@@ -605,6 +606,11 @@ h3 {
 /* ---------------------- @media ----------------------- */
 
 @media (max-width: 1920px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 25px;
+  }
+  /* ----- LANDING PAGE ABOUT ----- */
   .about {
     /* border: 2px solid black; */
     margin-right: 20%;
@@ -614,66 +620,174 @@ h3 {
   h1 {
     font-size: 55px;
   }
+
+  /* ----- CONTACT PAGE ----- */
+
+  .text h3 {
+    font-size: 20px;
+  }
+
+  .text h4 {
+    font-size: 20px;
+  }
+  .icon {
+    width: 2.8vw;
+  }
 }
 
 @media (max-width: 1640px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 23px;
+  }
+  /* ----- LANDING PAGE ABOUT ----- */
   .about {
     /* border: 2px solid black; */
     margin-right: 35%;
-    font-size: 15px;
-    line-height: 200%;
+    font-size: 17px;
   }
   h1 {
     font-size: 50px;
   }
+  /* ----- CONTACT PAGE ----- */
+  .text h3 {
+    font-size: 18px;
+  }
+
+  .text h4 {
+    font-size: 18px;
+  }
+  .icon {
+    width: 2.5vw;
+  }
 }
 
 @media (max-width: 1500px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 21px;
+  }
+  /* ----- LANDING PAGE ABOUT ----- */
   .about {
     /* border: 2px solid black; */
     margin-right: 38%;
     font-size: 15px;
-    line-height: 200%;
   }
   h1 {
     font-size: 40px;
   }
 }
+
 @media (max-width: 1410px) {
+  /* ----- LANDING PAGE ABOUT ----- */
   .about {
     /* border: 2px solid black; */
     margin-right: 40%;
     font-size: 13px;
-    line-height: 200%;
   }
-
   /* ----- PORTFOLIO ----- */
   .side {
     font-size: 14px;
   }
 }
 @media (max-width: 1290px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 19px;
+  }
+  /* ----- LANDING PAGE ABOUT ----- */
   .about {
-    /* border: 2px solid black; */
     margin-right: 33%;
-    font-size: 13px;
-    line-height: 200%;
   }
   h1 {
     font-size: 35px;
   }
-  .side {
-    font-size: 12px;
+  /* ------ EACH TITLE AND UNDERLINE ------ */
+  .title h3 {
+    font-size: 45px;
+  }
+  /* ----- CONTACT PAGE ----- */
+  .text h3 {
+    font-size: 18px;
+  }
+
+  .text h4 {
+    font-size: 18px;
+  }
+  .icon {
+    width: 2.5vw;
   }
 }
+
+/* ---------------------------- THE iPad SCREEN ------------------------------- */
 @media (max-width: 1120px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 19px;
+  }
+  /* ----- LANDING PAGE ABOUT ----- */
+  .about {
+    font-size: 11px;
+  }
   h1 {
     font-size: 30px;
   }
+  /* ----- PORTFOLIO ----- */
   .side {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  /* ------ EACH TITLE AND UNDERLINE ------ */
+  .title h3 {
+    font-size: 40px;
+  }
+  /* ----- CONTACT PAGE ----- */
+  .text h3 {
+    font-size: 15px;
+  }
+
+  .text h4 {
+    font-size: 15px;
+  }
+  .icon {
+    width: 2.5vw;
   }
 }
+@media (max-width: 858px) {
+  /* ----- NAVIGATION BAR ----- */
+  .navLink li a {
+    font-size: 17px;
+  }
+
+  /* ----- LANDING PAGE ABOUT ----- */
+  .about {
+    margin-right: 15%;
+    font-size: 11px;
+    line-height: 150%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  /* ----- PORTFOLIO ----- */
+  .gallary {
+    margin: 0% 10% 0% 1%;
+  }
+  .side {
+    font-size: 11px;
+  }
+  /* ----- CONTACT PAGE ----- */
+  .text h3 {
+    font-size: 13px;
+  }
+
+  .text h4 {
+    font-size: 13px;
+  }
+  .icon {
+    width: 2.5vw;
+  }
+}
+
+/* ---------------------------- THE MOBILE SCREEN ------------------------------- */
 
 @media (max-width: 500px) {
   .navLink {
@@ -699,7 +813,7 @@ h3 {
 
   .home {
     margin-top: 40%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-direction: column;
     align-items: center;
   }
