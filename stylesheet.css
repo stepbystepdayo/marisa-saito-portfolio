@@ -545,7 +545,7 @@ h3 {
 }
 
 .detailTwo {
-  margin-top: 7%;
+  margin-top: 10%;
   width: 60%;
 }
 
@@ -850,6 +850,7 @@ h3 {
   /* ------------------------ ABOUT PICTURE --------------------------- */
   .picture {
     margin-top: 8%;
+    margin-bottom: 8%;
   }
   .design {
     width: 50vw;
@@ -871,6 +872,7 @@ h3 {
   .side {
     width: 50%;
     align-items: center;
+    margin-bottom: 5%;
   }
   .side a {
     margin-top: 10%;
@@ -878,7 +880,7 @@ h3 {
 
   .gallary {
     margin: 5% 0% 10% 0%;
-    width: 65%;
+    width: 90%;
   }
   .boxOne {
     width: 50%;
@@ -898,6 +900,33 @@ h3 {
     text-align: center;
     margin-top: 6%;
   }
+  .boxOne img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxTwo img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxThree img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .boxFour img {
+    width: 35vw;
+    height: 35vw;
+  }
+  .detailOne {
+    /* border: 2px solid black; */
+    margin-top: 30%;
+    width: 90%;
+  }
+
+  .detailTwo {
+    margin-top: 30%;
+    width: 90%;
+  }
+
   /* ---------------------- CONTACT ----------------------- */
   .text h3 {
     font-size: 13px;
