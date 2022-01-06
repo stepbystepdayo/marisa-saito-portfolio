@@ -398,7 +398,6 @@ h3 {
   height: 50%;
   width: 30%;
   line-height: 1.6;
-  /* font-weight: bold; */
   display: flex;
   flex-direction: column;
 }
@@ -790,12 +789,12 @@ h3 {
   }
 }
 
-/* ---------------------------- THE MOBILE SCREEN ------------------------------- */
+/* -------------------------------------- THE MOBILE SCREEN ------------------------------------- */
 
 @media (max-width: 500px) {
   /* ------------------- NAVIGATION BAR ----------------- */
   .navLink {
-    display: none;
+    /* display: none; */
     width: 100%;
   }
 
@@ -858,5 +857,55 @@ h3 {
   }
   .picture img {
     width: 48vw;
+  }
+  /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
+  .title h3 {
+    font-size: 25px;
+  }
+  /* ----------------- PPORTFOLIO PAGE ----------------- */
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 5% 0% 0% 0%;
+  }
+  .side {
+    width: 50%;
+    align-items: center;
+  }
+  .side a {
+    margin-top: 10%;
+  }
+
+  .gallary {
+    margin: 5% 0% 10% 0%;
+    width: 65%;
+  }
+  .boxOne {
+    width: 50%;
+    text-align: center;
+  }
+  .boxTwo {
+    width: 50%;
+    text-align: center;
+  }
+  .boxThree {
+    width: 50%;
+    text-align: center;
+    margin-top: 6%;
+  }
+  .boxFour {
+    width: 50%;
+    text-align: center;
+    margin-top: 6%;
+  }
+  /* ---------------------- CONTACT ----------------------- */
+  .text h3 {
+    font-size: 13px;
+  }
+  .text h4 {
+    font-size: 13px;
+  }
+  .icon {
+    width: 6vw;
   }
 }
