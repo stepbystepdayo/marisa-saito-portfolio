@@ -150,6 +150,7 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
 }
+
 .navLink ul {
   display: flex;
   flex-direction: row;
@@ -773,9 +774,6 @@ h3 {
 
 @media (max-width: 500px) {
   /* ------------------- NAVIGATION BAR ----------------- */
-  .burger {
-    display: flex;
-  }
 
   .navLink {
     display: none;
@@ -838,12 +836,11 @@ h3 {
       width: 0%;
     }
     100% {
-      width: 65%;
+      width: 66%;
     }
   }
   h2 {
     font-size: 15px;
-    text-transform: capitalize;
   }
   .about {
     /* border: 2px solid black; */
@@ -868,7 +865,20 @@ h3 {
     margin-top: 15%;
     font-size: 25px;
   }
+  .underline {
+    width: 45%;
+    animation: underLine 1s ease-in;
+  }
+  @keyframes underLine {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
   /* ----------------- PPORTFOLIO PAGE ----------------- */
+
   .main {
     flex-direction: column-reverse;
     align-items: center;
@@ -939,6 +949,93 @@ h3 {
   }
   .text h4 {
     font-size: 13px;
+  }
+  .icon {
+    width: 6vw;
+  }
+}
+
+@media (max-width: 420px) {
+  /* ------------------- LANDING PAGE---------------------- */
+  .line {
+    width: 80%;
+    animation: lineMobileS 1.5s ease-in;
+  }
+  @keyframes lineMobileS {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  .about {
+    font-size: 8px;
+  }
+  /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
+  .title h3 {
+    font-size: 23px;
+  }
+  /* ---------------------- CONTACT ----------------------- */
+  .text h3 {
+    margin-top: 0%;
+    font-size: 13px;
+  }
+  .text h4 {
+    font-size: 13px;
+  }
+  .icon {
+    width: 6vw;
+  }
+}
+
+@media (max-width: 375px) {
+  /* ------------------- LANDING PAGE---------------------- */
+
+  .line {
+    width: 82%;
+    animation: lineMobileSs 1.5s ease-in;
+  }
+  @keyframes lineMobileSs {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 82%;
+    }
+  }
+  .about {
+    /* border: 2px solid black; */
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* ------------------- NAV BAR ---------------------- */
+  .burger {
+    width: 25px;
+    height: 19px;
+  }
+
+  /* ------------------- LANDING PAGE---------------------- */
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  .about {
+    margin-right: 5%;
+  }
+
+  /* ---------------------- CONTACT ----------------------- */
+  .text h3 {
+    font-size: 10px;
+  }
+  .text h4 {
+    font-size: 10px;
   }
   .icon {
     width: 6vw;
