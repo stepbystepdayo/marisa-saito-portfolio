@@ -299,7 +299,6 @@ h2 {
 }
 .picture img {
   /* border: 2px solid black; */
-  /* border: 2px solid black; */
   position: relative;
   z-index: 1;
   width: 28vw;
@@ -307,8 +306,6 @@ h2 {
   margin-top: 3%;
   margin-left: 10%;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  /* object-fit: cover; */
-  /* aspect-ratio: 5/3; */
 }
 
 /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
@@ -859,12 +856,12 @@ h3 {
     margin-left: 0%;
   }
   .design {
-    width: 65vw;
+    width: 70vw;
     height: 37vw;
   }
   .picture img {
     width: 50vw;
-    margin-left: 20%;
+    margin-left: 23%;
     margin-top: 1.5%;
   }
   /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
