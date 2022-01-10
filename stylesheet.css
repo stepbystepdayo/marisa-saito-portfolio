@@ -942,6 +942,18 @@ h3 {
     height: 80vw;
   }
 
+  /* ---------------------- POP UP ----------------------- */
+  .detailOne {
+    /* border: 2px solid black; */
+    margin-top: 45%;
+    width: 80%;
+  }
+
+  .detailTwo {
+    margin-top: 45%;
+    width: 90%;
+  }
+
   /* ---------------------- CONTACT ----------------------- */
   .text h3 {
     margin-top: 0%;
