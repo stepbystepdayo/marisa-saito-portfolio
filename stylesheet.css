@@ -375,15 +375,17 @@ h3 {
   background-color: #dcdfdb;
   font-size: 18px;
   text-transform: uppercase;
-  padding: 2%;
-  height: 50%;
-  width: 30%;
+  padding: 0%;
+  height: 40%;
+  width: 35%;
   line-height: 1.6;
   display: flex;
   flex-direction: column;
 }
 .side a {
-  margin-bottom: 10%;
+  /* border: 2px solid black; */
+  margin-bottom: 3%;
+  padding: 0.5%;
   text-decoration: none;
   color: #474747;
 }
@@ -394,7 +396,7 @@ h3 {
 
 .gallary {
   /* border: 2px solid black; */
-  margin: 0% 20% 0% 1%;
+  margin: 0% 14% 0% 1%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -416,8 +418,8 @@ h3 {
 }
 .boxOne img {
   filter: grayscale(100%);
-  width: 26vw;
-  height: 26vw;
+  width: 28vw;
+  height: 28vw;
   object-fit: cover;
   object-position: 75% 100%;
   /* width: 90%;
@@ -428,8 +430,8 @@ h3 {
 
 .boxTwo img {
   filter: grayscale(100%);
-  width: 26vw;
-  height: 26vw;
+  width: 28vw;
+  height: 28vw;
   object-fit: cover;
   object-position: 75% 100%;
   /* width: 90%;
@@ -439,8 +441,8 @@ h3 {
 }
 .boxThree img {
   filter: grayscale(100%);
-  width: 26vw;
-  height: 26vw;
+  width: 28vw;
+  height: 28vw;
   object-fit: cover;
   object-position: 40% 100%;
   /* width: 90%;
@@ -451,8 +453,8 @@ h3 {
 }
 .boxFour img {
   filter: grayscale(100%);
-  width: 26vw;
-  height: 26vw;
+  width: 28vw;
+  height: 28vw;
   object-fit: cover;
   object-position: 40% 100%;
   /* width: 90%;
@@ -667,7 +669,7 @@ h3 {
   }
   /* ----- PORTFOLIO ----- */
   .side {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 @media (max-width: 1290px) {
@@ -717,7 +719,7 @@ h3 {
   }
   /* ----- PORTFOLIO ----- */
   .side {
-    font-size: 12px;
+    font-size: 13px;
   }
   /* ------ EACH TITLE AND UNDERLINE ------ */
   .title h3 {
@@ -751,11 +753,9 @@ h3 {
     font-size: 30px;
   }
   /* ----- PORTFOLIO ----- */
-  .gallary {
-    margin: 0% 10% 0% 1%;
-  }
+
   .side {
-    font-size: 11px;
+    font-size: 12px;
   }
   /* ----- CONTACT PAGE ----- */
   .text h3 {
@@ -821,10 +821,12 @@ h3 {
 
   .home {
     margin-top: 30%;
-    margin-left: 5%;
     /* border: 2px solid black; */
     flex-direction: column;
     align-items: center;
+  }
+  .name {
+    margin-left: 8%;
   }
   .line {
     width: 66%;
@@ -850,15 +852,20 @@ h3 {
   }
   /* ------------------------ ABOUT PICTURE --------------------------- */
   .picture {
+    /* border: 2px solid black; */
     margin-top: 8%;
     margin-bottom: 8%;
+    width: 100%;
+    margin-left: 0%;
   }
   .design {
-    width: 50vw;
+    width: 65vw;
     height: 37vw;
   }
   .picture img {
-    width: 48vw;
+    width: 50vw;
+    margin-left: 20%;
+    margin-top: 1.5%;
   }
   /* ------------------- EACH PAGE'S TITLE AND UNDERLINE ----------------- */
   .title h3 {
@@ -887,59 +894,52 @@ h3 {
   .side {
     width: 50%;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
   }
   .side a {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .gallary {
-    margin: 5% 0% 10% 0%;
-    width: 90%;
+    /* border: 2px solid black; */
+    margin: 5% 0% 0% 0%;
+    width: 100%;
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
   }
   .boxOne {
-    width: 50%;
-    text-align: center;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-bottom: 3%;
   }
   .boxTwo {
-    width: 50%;
-    text-align: center;
+    width: 80%;
+    margin-bottom: 0.5%;
   }
   .boxThree {
-    width: 50%;
-    text-align: center;
-    margin-top: 6%;
+    width: 80%;
+    margin-bottom: 0.5%;
   }
   .boxFour {
-    width: 50%;
-    text-align: center;
-    margin-top: 6%;
+    width: 80%;
+    margin-bottom: 3%;
   }
   .boxOne img {
-    width: 35vw;
-    height: 35vw;
+    width: 80vw;
+    height: 80vw;
   }
   .boxTwo img {
-    width: 35vw;
-    height: 35vw;
+    width: 80vw;
+    height: 80vw;
   }
   .boxThree img {
-    width: 35vw;
-    height: 35vw;
+    width: 80vw;
+    height: 80vw;
   }
   .boxFour img {
-    width: 35vw;
-    height: 35vw;
-  }
-  .detailOne {
-    /* border: 2px solid black; */
-    margin-top: 30%;
-    width: 90%;
-  }
-
-  .detailTwo {
-    margin-top: 30%;
-    width: 90%;
+    width: 80vw;
+    height: 80vw;
   }
 
   /* ---------------------- CONTACT ----------------------- */
